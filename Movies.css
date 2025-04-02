@@ -1,0 +1,85 @@
+.carousel-item::after{
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0),#000);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.carousel-item::before{
+    content: '';
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(to right, #000,rgba(0, 0, 0, 0));
+    width: 50%;
+    height: 100%;
+    z-index: 10;
+}
+ #sadak2{
+    top: 194px;
+}
+#alien{
+    top: 174.9px;
+}
+#pandhu{
+    top: 173px;
+}
+#lion{
+    top: 193px;
+}
+#past{
+    top: 177.7px;
+}
+#amazon{
+    top: 76px;
+}
+.swiper-left2,.swiper-left11,.swiper-left9,.swiper-left10,.swiper-left12
+{
+    background:linear-gradient(88deg,#0f1014 0.62%,rgba(15,16,20,0) 99.33%);
+    position: absolute;
+    height: 100%;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    z-index: 20;
+   
+}
+.swiper-right2,.swiper-right11,.swiper-right9,.swiper-right10,.swiper-right12
+{
+    background:linear-gradient(269.25deg,#0f1014 0.62%,rgba(15,16,20,0) 99.33%);
+    position: absolute;
+    height: 100%;
+    right: 0;
+    width: 3%;
+    display: flex;
+    justify-content:center;
+    font-size: 22px !important;
+    z-index: 20;
+    align-items: center;
+    font-size: 0px;
+    color: white;
+}
+.slider2,.slider11,.slider9,.slider10,.slider12
+{
+    width:fit-content;
+    /* background-color: purple; */
+    display: flex;
+    column-gap: 8px;
+    padding: 10px;
+    pointer-events: none;
+   transition: .8s ease-in-out;
+}
+.slider9 .movie,.slider10 .movie,.slider11 .movie,
+.slider12 .movie{
+    width: 177.8px;
+}
+.movies-section{
+   margin-top: 32px;
+   
+}

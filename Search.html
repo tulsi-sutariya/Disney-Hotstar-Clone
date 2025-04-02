@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hotstar - Watch TV Shows, Movies, Specials, Live Cricket &amp; Football</title>
+
+      <!-------------- Font Awesom for icon ------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--------------------  favicon   ------------>
+    <link rel="shortcut icon" href="https://img.informer.com/icons/png/128/7633/7633328.png" type="image/x-icon">
+
+
+    <!-----------  Bootstrap css  ------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!------------Bootstrap icon  --------------->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--------------------  favicon   ------------>
+    <link rel="shortcut icon" href="https://img.informer.com/icons/png/128/7633/7633328.png" type="image/x-icon">
+
+
+    <!------------- css style ------------------>
+    <link rel="stylesheet" href="Project-1.css">
+    <link rel="stylesheet" href="Search.css">
+    <link rel="stylesheet" href="ChatAi-Loading.css">
+    <style>
+     
+      ul li a:hover ul li a i{
+        color: white !important;
+        text-decoration: none;
+        opacity: 1;
+        z-index: 50;
+        transform: scale(1.3);
+        font-weight: 700;
+        }
+        ul li a:hover{
+    color: white !important;
+}
+    ul li a{
+        color: white !important;
+        transform: color 0.4s ease-in-out;
+    }
+    </style>
+
+</head>
+<body>
+     <div class="main">
+        <aside>
+            <div class="nav">
+            <div class="logo">
+                <a href="#">
+                    <img src="https://img.hotstar.com/image/upload/v1656431456/web-images/logo-d-plus.svg" alt="" >
+                </a>
+            </div>
+            <ul id="navbar-chat">
+                <li id="nav-item">
+                   
+                    <a href="Project-1.html" id="house">
+                        <span ><i class="bi bi-house-door custom-icon text-white" id="house-icon"></i></span>
+                        <span class="title "> Home</span>
+                    </a>
+                </li>
+
+                <li id="nav-item">
+                    <a href="Search.html"  class="active" aria-current="page">
+                        <span><i class="bi bi-search text-white"></i></span>
+                        <span class="title"> Search</span>
+                    </a>
+                </li>
+                
+                <li id="nav-item">
+                    <a href="TV.html" id="tv34">
+                        <span><i class="bi bi-tv custom-icon text-white"  id="tv"></i></span>
+                        <span class="title"> TV</span>
+                    </a>
+                </li>
+                <li id="nav-item">
+                    <a href="Movies.html">
+                        <sapn><i class="bi bi-film " ></i></sapn>
+                        <span class="title"> Movies</span>
+                    </a>
+                </li>
+                <li id="nav-item">
+                    <a href="Sports.html" id="sports23">
+                       <span><i class="bi bi-pie-chart custom-icon text-white active" id="sport1"></i></span>
+                       <span class="title"> Sports</span>
+                       </a>
+                </li>
+                <li id="nav-item">
+                    <a href="chatAi.html" id="chat">
+                       <span><i class="bi bi-chat-dots custom-icon text-white" id="chat-icon"></i></span>
+                       <span class="title"> Nexa</span>
+                       </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+       
+    </div>
+
+        <div class="container">
+          
+                    <div class="search-box">
+                        <button class="prompt__form-button" id="sendButton">
+                            <i class="bi bi-search text-white"></i>
+                        </button>
+                    <input type="text" id="search-bar"  placeholder="Movies, shows and more">
+                    <button class="prompt__form_cross">
+                    <i class="bi bi-x text-white" id="cross"></i>
+                </button>
+                </div>
+                    <div class="historys"></div>
+                    <div id="autocomplete-results" class="autocomplete-results mt-3"></div>
+                    
+                    <div id="movie-details" class="movie-details mt-4"></div>
+
+                  
+</div>
+
+<footer id="search-ft">
+    <div class="container-fluid justify-content-evenly">
+        <div class="row d-flex justify-content-evenly flex-row flex-nowrap">
+            <div class="col-md-3">
+                <h6 class="text-white">Company</h6>
+                <ul>
+                    <li> 
+                        <a href="https://www.hotstar.com/about-us/in" style="color: hsla(203, 92%, 75%, 0.982)!important;">About Us</a>
+                    </li>
+                    <li>
+                        <a href="https://careers.hotstar.com/" style="color: hsla(203, 92%, 75%, 0.982)!important;">Careers</a>
+                    </li>
+                </ul>
+                <p>&copy; 2025 STAR.All Rights Reserved.</p>
+                <p>Terms of Use&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;FAQ</p> 
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-white">View Website in</h6>
+                <div>
+                    <div id="eng-ft" class="mt-3" style="cursor: pointer;;">
+                        <p>  <i class="bi bi-check2 me-2 pt-2 fs-5" style="color: hsla(203, 92%, 75%, 0.982)!important"></i>
+                            <span style="color: hsla(203, 92%, 75%, 0.982)!important;">English</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-white" >Need Help?</h6>
+                <ul>
+                    <li>
+                        <a href="https://help.hotstar.com/in/en/support/home" style="color: hsla(203, 92%, 75%, 0.982)!important">Visit Help Center</a>
+                    </li>
+                    <li>
+                        <a href="https://help.hotstar.com/in/en/support/tickets/feedback" style="color: hsla(203, 92%, 75%, 0.982)!important">Share Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 d-flex align-items-center flex-column" id="">
+                
+                <h6 class="text-white">Connect with Us</h6>
+                <ul>
+                    <li class="footer-img">
+                        <a href="https://www.facebook.com/DisneyPlusHotstar"><i class="fa-brands fa-facebook-f me-5" style=" color: white !important;"></i></a>
+
+                        <a href="https://x.com/DisneyPlusHS?mx=2">
+                        <i class="fa-brands fa-x-twitter" style="color: white !important;"></i>
+                    </a>
+                    </li>
+                </ul>
+              <div class="d-flex flex-row mt-2" id="ft-im">
+                <div class="me-2">
+                    <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar">
+                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/v1661346101/google-playstore" alt="" id="footer-g">
+                    </a>
+            </div>
+            <div >
+                <a href="https://apps.apple.com/in/app/jiohotstar/id934459219">
+                    <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/v1661346071/ios-appstore" alt="" id="footer-a">
+                </a>
+            </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</footer>
+                
+              
+                
+                               
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="Search.js" defer></script>
+</body>
+</html>

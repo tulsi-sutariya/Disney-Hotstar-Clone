@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hotstar - Watch TV Shows, Movies, Specials, Live Cricket &amp; Football</title>
+
+    <!-------------- Font Awesom for icon ------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--------------------  favicon   ------------>
+    <link rel="shortcut icon" href="https://img.informer.com/icons/png/128/7633/7633328.png" type="image/x-icon">
+
+    <!-----------  Bootstrap css  ------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!------------Bootstrap icon  --------------->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--<link rel="preload" href="/assets-x/web/_next/static/css/836d8d7d8050394a.css" as="style" />-->
+
+    <!--------------------  favicon   ------------>
+    <link rel="shortcut icon" href="https://img.informer.com/icons/png/128/7633/7633328.png" type="image/x-icon">
+
+
+    <!------------- css style ------------------>
+    <link rel="stylesheet" href="Project-1.css">
+    <link rel="stylesheet" href="Movies.css">
+
+    <style>
+      ul li a:hover ul li a i{
+        color: white !important;
+        text-decoration: none;
+        opacity: 1;
+        z-index: 50;
+        transform: scale(1.3);
+        font-weight: 700;
+        }
+        ul li a:hover{
+    color: white !important;
+}
+    ul li a{
+        color: white !important;
+        transform: color 0.4s ease-in-out;
+    }
+    </style>
+
+</head>
+<body>
+    <!-------------------Navbar --------------------------->
+    <div class="main">
+        <aside>
+            <div class="nav">
+            <div class="logo">
+                <a href="#">
+                    <img src="https://img.hotstar.com/image/upload/v1656431456/web-images/logo-d-plus.svg" alt="" >
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="Project-1.html" id="house">
+                        <span ><i class="bi bi-house-door custom-icon text-white" id="house-icon"></i></span>
+                        <span class="title "> Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Search.html">
+                        <span><i class="bi bi-search text-white"></i></span>
+                        <span class="title"> Search</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="TV.html" id="tv34">
+                        <span><i class="bi bi-tv custom-icon text-white"  id="tv"></i></span>
+                        <span class="title"> TV</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Movies.html"  class="active" aria-current="page">
+                        <sapn><i class="bi bi-film " ></i></sapn>
+                        <span class="title"> Movies</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Sports.html" id="sports23">
+                       <span><i class="bi bi-pie-chart custom-icon text-white" id="sport1"></i></span>
+                       <span class="title"> Sports</span>
+                       </a>
+                </li>
+                <li>
+                    <a href="chatAi.html" id="chat">
+                       <span><i class="bi bi-chat-dots custom-icon text-white" id="chat-icon"></i></span>
+                       <span class="title"> Nexa</span>
+                       </a>
+                </li>
+            </ul>
+        </div>
+        </aside>
+        
+        
+        <!---------------- Slider --------------->
+       <div class="banner">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+            <div class="carousel-indicators">
+               <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                                    
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+
+            <div class="carousel-inner">
+
+                <!---------- First Banners ---------------->
+              <div class="carousel-item active">
+                <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/3639/1711007493639-i" class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block" id="sadak2">
+                    <img src="https://img10.hotstar.com/image/upload/f_auto,h_148/sources/r1/cms/prod/7215/1711007477215-t" alt="" style="width: 400px!important;height: 100px!important;border-radius: 2%;">
+
+                         <h6 class="mb-3 mt-3">2020&nbsp;&nbsp; <span style="font-size: 22px;vertical-align: middle;">&#8729;</span> &nbsp;
+                            <span style="background-color:rgba(244,234,224,0.2);padding-inline: 9px;padding-block: 3px;border-radius: 5px;">U/A 16+</span> &nbsp; 
+                            <span style="font-size: 22px;vertical-align: middle;"> &#8729; </span> 2h 13m  
+                            <span style="font-size: 22px;vertical-align: middle;"> &#8729; 
+
+                            </span> &nbsp;Hindi
+                         </h6>
+                    <p class="mb-3">Ravi, a suicidal taxi driver, plans to shut shop when a young girl, Aarya, compels him to take her on a life-altering journey to Kailash.</p>
+                         <h6 class="mb-4">Drama | Tragedy | Casual Viewing  | Journey</h6>
+                         <div class="group mt-4 pt-3">
+                            <button class="watch-btn" type="button">
+                                
+                                <h1 style="font-size: 16.8px;font-weight: 700;"> <i class="bi bi-play-fill text-white pe-1 " style="font-size: 31px;"></i>
+                                    Watch Now</h1>
+                            </button>
+                           
+                            <button type="button" data-bs-toggle="tooltip" style="font-weight: 700;"  class="add-playlist" data-bs-placement="top" title="Watchlist">
+                                +
+                            </button>
+  
+                            
+                         </div>
+                  </div> 
+              </div>
+    
+              <!----------------------- Second Banners ----------------------------->
+              <div class="carousel-item">
+           <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5142/1724816965142-i" class="d-block w-100" alt="...">
+              
+           
+                <div class="carousel-caption d-none d-md-block" id="alien">
+                    <img src="https://img10.hotstar.com/image/upload/f_auto,h_148/sources/r1/cms/prod/2829/1724816952829-t" alt="" style="width: 689px!important;height: 140px!important;">
+                
+                          <h6 class="mb-3 mt-3">2017&nbsp;&nbsp; <span style="font-size: 22px;vertical-align: middle;">&#8729;</span> &nbsp;
+                             <span style="background-color:rgba(244,234,224,0.2);padding-inline: 9px;padding-block: 1.5px;border-radius: 5px;">A</span>&nbsp; 
+                             <span style="font-size: 22px;vertical-align: middle;"> &#8729; </span> 2h 2m &nbsp;
+                             <span style="font-size: 22px;vertical-align: middle;">&#8729; 
+ 
+                             </span> &nbsp;4 Languages
+                          </h6>
+                     <p class="mb-3">The crew of the Covenant uncovers a threat and attempts a harrowing escape.</p>
+                          <h6 class="mb-4">Gritty | Thriller | Science Fiction | Horror</h6>
+                          <div class="group mt-4 pt-3">
+                             <button class="watch-btn " type="button">
+                                 
+                                 <h5 style="font-size: 16.8px;font-weight: 700;"> <i class="bi bi-play-fill text-white pe-1 " style="font-size: 31px;"></i>
+                                     Watch Now</h5>
+                             </button>
+                            
+                             <button type="button" data-bs-toggle="tooltip" class="add-playlist" data-bs-placement="top" title="Watchlist">
+                                 +
+                             </button>
+                 </div>
+                </div>
+              </div>
+    
+              <!-------------------------Third Banners ----------------------------->
+             <div class="carousel-item">
+                <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/4296/1732087234296-i" class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block" id="pandhu">
+                    <img src="https://img10.hotstar.com/image/upload/f_auto,h_148/sources/r1/cms/prod/6977/1732087246977-t" alt="" style="width: 140px!important;height: 100px!important;">
+                
+                          <h6 class="mb-3 mt-3">2024&nbsp;&nbsp; <span style="font-size: 22px;vertical-align: middle;">&#8729;</span> &nbsp;
+                             <span style="background-color:rgba(244,234,224,0.2);padding-inline: 9px;padding-block: 3px;border-radius: 5px;">U/A 7+</span> &nbsp;
+                             <span style="font-size: 22px;vertical-align: middle;"> &#8729; </span>2h 24m
+                             <span style="font-size: 22px;vertical-align: middle;">  &#8729; 
+ 
+                             </span> &nbsp;5 Languages
+                          </h6>
+                     <p class="mb-3"> Gully cricket icon Gethu's reign is at risk with a rising star in town. As the battle of wits and wickets heats up, an unexpected twist intertwines their lives.</p>
+                          <h6 class="mb-4">Drama | Riverly | Sports | Power Struggles</h6>
+                          <div class="group mt-4 pt-3">
+                             <button class="watch-btn " type="button">
+                                 
+                                 <h5 style="font-size: 16.8px;font-weight: 700;"> <i class="bi bi-play-fill text-white pe-1 " style="font-size: 31px;"></i>
+                                     Watch Now</h5>
+                             </button>
+                            
+                             <button type="button" data-bs-toggle="tooltip" class="add-playlist" data-bs-placement="top" title="Watchlist">
+                                 +
+                             </button>
+                 </div>
+                </div>
+              </div>
+    <!--------------- fourth Slider --------------------------------------->
+              <div class="carousel-item">
+                <img src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8698/1418698-i-ea1d9b523dc4" class="d-block w-100"  alt="...">
+
+                <div class="carousel-caption d-none d-md-block" id="lion">
+                    <img src="https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/8700/1418700-t-540523988b7d" alt="" style="width: 270px!important;height: 100px!important;">
+                
+                          <h6 class="mb-3 mt-3">2019&nbsp;&nbsp; <span style="font-size: 22px;vertical-align: middle;">&#8729;</span> &nbsp;
+                             <span style="background-color:rgba(244,234,224,0.2);padding-inline: 9px;padding-block: 3px;border-radius: 5px;">U/A 7+</span> &nbsp;
+                             <span style="font-size: 22px;vertical-align: middle;"> &#8729; </span>1h 58m
+                             <span style="font-size: 22px;vertical-align: middle;">  &#8729; 
+ 
+                             </span> &nbsp;4 Languages
+                          </h6>
+                     <p class="mb-3"> In the African savanna, a young prince overcomes betrayal and tragedy to assume his rightful place on Pride Rock.</p>
+                          <h6 class="mb-4">Musical | Adventure | Fantasy</h6>
+                          <div class="group mt-4 pt-3">
+                             <button class="watch-btn " type="button">
+                                 
+                                 <h5 style="font-size: 16.8px;font-weight: 700;"> <i class="bi bi-play-fill text-white pe-1 " style="font-size: 31px;"></i>
+                                     Watch Now</h5>
+                             </button>
+                            
+                             <button type="button" data-bs-toggle="tooltip" class="add-playlist" data-bs-placement="top" title="Watchlist">
+                                 +
+                             </button>
+                 </div>
+                </div>
+              </div>
+    <!----------------- Fifth slider ------------------------------->
+              <div class="carousel-item">
+                <img src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5610/1375610-i-52a5da7bdf75" class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block" id="past">
+                    <img src="https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5613/1375613-t-a74d354b76ac" alt="" style="width: 210px!important;height: 110px!important;margin-left: 4px;">
+            
+                          <h6 class="mb-3">2018&nbsp;&nbsp; <span style="font-size: 22px;vertical-align: middle;">&#8729;</span> &nbsp;
+                             <span style="background-color:rgba(244,234,224,0.2);padding-inline: 9px;padding-block: 3px;border-radius: 5px;">U/A 16+</span> &nbsp;
+                             <span style="font-size: 22px;vertical-align: middle;"> &#8729; </span>1h 44m
+                             <span style="font-size: 22px;vertical-align: middle;">  &#8729; 
+ 
+                             </span> &nbsp;Hindi
+                          </h6>
+                     <p class="mb-3">When a budding writer moves to a hill station to write her new book, little does she know that an evil plot is about to unfold and take her into the past.</p>
+                    
+                          <h6 class="mb-4">Horror | Mystery | Occult | Paranormal</h6>
+                          <div class="group mt-4 pt-3">
+                             <button class="watch-btn " type="button">
+                                 
+                                 <h5 style="font-size: 16.8px;font-weight: 700;"> <i class="bi bi-play-fill text-white pe-1 " style="font-size: 31px;"></i>
+                                     Watch Now</h5>
+                             </button>
+                            
+                             <button type="button" data-bs-toggle="tooltip" class="add-playlist" data-bs-placement="top" title="Watchlist">
+                                 +
+                             </button>
+                 </div>
+                </div>
+              </div>
+    <!--------------------------------- sixth slider -------------------------------->
+              <div class="carousel-item">
+                <img src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7414/1728819687414-i" class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block" id="amazon">
+                    <img src="https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9514/1728819669514-t" alt="" style="width: 320px!important;height: 195px!important;">
+                
+                          <h6 class="mb-3 mt-3">2024&nbsp;&nbsp; <span style="font-size: 22px;vertical-align: middle;">&#8729;</span> &nbsp;
+                             <span style="background-color:rgba(244,234,224,0.2);padding-inline: 9px;padding-block: 3px;border-radius: 5px;">U/A 13+</span> &nbsp;
+                             <span style="font-size: 22px;vertical-align: middle;"> &#8729; </span>44m
+                             <span style="font-size: 22px;vertical-align: middle;">  &#8729; 
+ 
+                             </span> &nbsp;4 Languages
+                          </h6>
+                     <p class="mb-3">National Geographic Explorers and Rolex conduct groundbreaking research in The Amazon, to understand the threats facing it and drive action to address them.</p>
+                    
+                          <h6 class="mb-4">Documentary | Adventures | Informative | Journey</h6>
+                          <div class="group mt-4 pt-3">
+                             <button class="watch-btn " type="button">
+                                 
+                                 <h5 style="font-size: 16.8px;font-weight: 700;"> <i class="bi bi-play-fill text-white pe-1 " style="font-size: 31px;"></i>
+                                     Watch Now</h5>
+                             </button>
+                            
+                             <button type="button" data-bs-toggle="tooltip" class="add-playlist" data-bs-placement="top" title="Watchlist">
+                                 +
+                             </button>
+                 </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+   
+    </div>
+
+       <div class="cardlist">
+        <div class="container1">
+           <div class="overlay"></div>
+            
+            <!------------ Disney Movies ------------------->
+
+                <section class="movies-section">
+
+                    <div class="movies-section-header">
+                        <p class="section-title">
+                           Disney Movies
+                        </p>
+                        <p class="va">
+                            View All <i class="fa-solid fa-angle-right"></i>
+                        </p>
+                    </div>
+
+                    <div class="movies">
+
+                        <div class="swiper-left" id="swipe-left">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+
+                        <div class="swiper-right" id="swipe-right">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+
+                <div class="slider" id="slider">
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1223/871223-v" alt="movie">
+                    </div>
+
+                   <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8698/1418698-i-ea1d9b523dc4" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5150/875150-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4669/674669-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/681/1570681-v-40713b14ee86" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8689/1078689-v-fa64ee0a9b06" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4569/674569-v" alt="movie">
+                    </div>
+
+                   <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4544/674544-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5236/875236-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4452/674452-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4816/674816-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5199/875199-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1342/1091342-v-99a785cd003e" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6941/1036941-v-b7f0f9abf579" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4644/674644-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4560/674560-v" alt="movie">
+                    </div>
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4664/674664-v" alt="movie">
+                    </div>
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4613/674613-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4461/674461-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4573/674573-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4650/674650-v" alt="movie">
+                    </div>
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4472/674472-v" alt="movie">
+                    </div>
+
+                    <div class="movie">
+                        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3290/1373290-i-8967ea9ad8da" alt="movie">
+                    </div>
+            
+            </div>
+                
+        </div>
+     </section> 
+
+            <!------------------ Marvel Movies ------------->
+            <section class="movies-section">
+
+                <div class="movies-section-header" >
+                    <p class="section-title">
+                        Marvel Movies
+                    </p>
+                    <p class="va">
+                        View All <i class="fa-solid fa-angle-right"></i>
+                    </p>
+                </div>
+            
+                <div class="movies">
+                    <div class="swiper-left10" id="swipe-left10">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+            
+                    <div class="swiper-right10" id="swipe-right10">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+            
+            <div class="slider10" id="slider10">
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8560/1731416898560-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5157/875157-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8299/1328299-v-41830f478c3f" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7011/1657011-v-d6e556230ba6" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8721/1078721-v-868cbfb9539d" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5049/675049-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7473/1557473-v-93d1c120532a" alt="movie">
+                </div>
+            
+               <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5211/875211-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4622/674622-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1173/1371173-i-88f9197e3027" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/88/1100088-v-b96714f721d0"  alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4679/674679-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4583/674583-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9942/1279942-v-724d56a723a1" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4856/674856-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2445/1462445-v-2a48363cb7e6" alt="movie">
+                </div>
+               <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5190/875190-v" alt="movie">
+                </div>
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4631/674631-v" alt="movie">
+                </div>
+                
+            </div>
+            
+            </div>
+            </section>
+            
+            <!------- Pixar Movies ------------->
+             <section class="movies-section">
+
+                <div class="movies-section-header" >
+                    <p class="section-title">
+                        Pixar Movies
+                    </p>
+                    <p class="va">
+                        View All <i class="fa-solid fa-angle-right"></i>
+                    </p>
+                </div>
+            
+                <div class="movies">
+                    <div class="swiper-left11" id="swipe-left11">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+            
+                    <div class="swiper-right11" id="swipe-right11">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+            
+            <div class="slider11" id="slider11">
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1884/1581884-v-1a5578897bf6" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1617/1726224401617-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4389/674389-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4520/674520-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4726/674726-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4527/674527-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5183/675183-v" alt="movie">
+                </div>
+            
+               <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4512/674512-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4433/674433-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9292/1039292-v-6c2f3cb977d6" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4685/674685-v"  alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4393/674393-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4373/1124373-v-4f2a381d376f" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4614/674614-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4392/674392-v" alt="movie">
+                </div>
+            
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4933/674933-v" alt="movie">
+                </div>
+               <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4521/674521-v" alt="movie">
+                </div>
+                <div class="movie">
+                    <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4905/674905-v" alt="movie">
+                </div>
+                
+            </div>
+            
+            </div>
+            </section>
+<!--------------Horror Movies ------------->
+<section class="movies-section">
+
+    <div class="movies-section-header" >
+        <p class="section-title">
+            Horror Movies
+        </p>
+        <p class="va">
+            View All <i class="fa-solid fa-angle-right"></i>
+        </p>
+    </div>
+
+    <div class="movies">
+        <div class="swiper-left9" id="swipe-left9">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+
+        <div class="swiper-right9" id="swipe-right9">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+<div class="slider9" id="slider9">
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6063/1726555256063-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2139/1572139-v-906f6abcacd1" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1665/581665-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7803/1712209007803-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3946/1710936643946-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5004/1723539885004-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/old_images/vertical/MOVIE/4941/1000214941/1000214941-v" alt="movie">
+    </div>
+
+   <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/310/1729244430310-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5548/1565548-v-5d729a468510" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4729/1713533994729-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/old_images/vertical/MOVIE/5843/1000055843/1000055843-v"  alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/113/1709616090113-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5509/305509-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/861/1120861-v-a997ae54d2ce" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7888/547888-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/378/1500378-v-88ef5d0035aa" alt="movie">
+    </div>
+   <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6158/116158-v" alt="movie">
+    </div>
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4173/234173-v" alt="movie">
+    </div>
+    
+</div>
+
+</div>
+</section>
+
+<!-----------------Kids Movies ---------------------------->
+
+<section class="movies-section">
+
+    <div class="movies-section-header" >
+        <p class="section-title">
+            Documentary Movies
+        </p>
+        <p class="va">
+            View All <i class="fa-solid fa-angle-right"></i>
+        </p>
+    </div>
+    <div class="movies">
+
+        <div class="swiper-left12" id="swipe-left12">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+
+        <div class="swiper-right12" id="swipe-right12">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+<div class="slider12" id="slider12">
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3270/1173270-v-b2cc135901b1" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/188/940188-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/816/750816-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1737/1728907441737-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3605/753605-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7181/1627181-v-7c81ecfbafc6" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6453/1728819766453-v" alt="movie">
+    </div>
+
+   <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5447/1105447-v-70dbc1d85df0" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2146/1723275312146-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7903/1735999347903-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3414/753414-v"  alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3571/753571-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5443/1731125655443-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9881/1735402189881-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3486/753486-v" alt="movie">
+    </div>
+
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8143/898143-v" alt="movie">
+    </div>
+   <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7722/1715547037722-v" alt="movie">
+    </div>
+    <div class="movie">
+        <img class="movie-img" src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2189/742189-v" alt="movie">
+    </div>
+
+    
+</div>
+
+</div>
+</section>
+
+<footer>
+    <div class="container-fluid justify-content-evenly">
+        <div class="row d-flex justify-content-evenly flex-row flex-nowrap">
+            <div class="col-md-3">
+                <h6 class="text-white">Company</h6>
+                <ul>
+                    <li> 
+                        <a href="https://www.hotstar.com/about-us/in" style="color: hsla(203, 92%, 75%, 0.982)!important;">About Us</a>
+                    </li>
+                    <li>
+                        <a href="https://careers.hotstar.com/" style="color: hsla(203, 92%, 75%, 0.982)!important;">Careers</a>
+                    </li>
+                </ul>
+                <p>&copy; 2025 STAR.All Rights Reserved.</p>
+                <p>Terms of Use&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;FAQ</p> 
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-white">View Website in</h6>
+                <div>
+                    <div id="eng-ft" class="mt-3" style="cursor: pointer;;">
+                        <p>  <i class="bi bi-check2 me-2 pt-2 fs-5" style="color: hsla(203, 92%, 75%, 0.982)!important"></i>
+                            <span style="color: hsla(203, 92%, 75%, 0.982)!important;">English</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-white" >Need Help?</h6>
+                <ul>
+                    <li>
+                        <a href="https://help.hotstar.com/in/en/support/home" style="color: hsla(203, 92%, 75%, 0.982)!important">Visit Help Center</a>
+                    </li>
+                    <li>
+                        <a href="https://help.hotstar.com/in/en/support/tickets/feedback" style="color: hsla(203, 92%, 75%, 0.982)!important">Share Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 d-flex align-items-center flex-column" id="">
+                
+                <h6 class="text-white">Connect with Us</h6>
+                <ul>
+                    <li class="footer-img">
+                        <a href="https://www.facebook.com/DisneyPlusHotstar"><i class="fa-brands fa-facebook-f me-5" style=" color: white !important;"></i></a>
+
+                        <a href="https://x.com/DisneyPlusHS?mx=2">
+                        <i class="fa-brands fa-x-twitter" style="color: white !important;"></i>
+                    </a>
+                    </li>
+                </ul>
+              <div class="d-flex flex-row mt-2" id="ft-im">
+                <div class="me-2">
+                    <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar">
+                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/v1661346101/google-playstore" alt="" id="footer-g">
+                    </a>
+            </div>
+            <div >
+                <a href="https://apps.apple.com/in/app/jiohotstar/id934459219">
+                    <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/v1661346071/ios-appstore" alt="" id="footer-a">
+                </a>
+            </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+</div>
+
+<!-----------  Bootstrap Javacript ------------>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="Movies.js" defer></script>
+
+
+</body>
+</html>
