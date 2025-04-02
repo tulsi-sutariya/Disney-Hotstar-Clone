@@ -19,7 +19,7 @@ A feature-rich frontend-only Disney+ Hotstar Clone built using HTML, CSS, JavaSc
 -  HTML5
 -  CSS3
 -  JavaScript
--  Bootstrap for Responsive Design
+-  Bootstrap
   
 ## 🎨 Project Preview:
 ![Image](https://github.com/user-attachments/assets/b4206458-e92e-4a4a-a701-abc06142bdd9)
