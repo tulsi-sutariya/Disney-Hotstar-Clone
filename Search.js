@@ -197,7 +197,7 @@ async function fetchMovieDetails(query) {
                     <h5>${movie.Title}</h5>
                          <h6 class="mb-2">${movie.Year}&nbsp;&nbsp; <span style="font-size: 36px;vertical-align: middle;">&#8729;</span>
                             ${movie.Runtime}&nbsp;&nbsp;</span> 
-                            <span style="font-size: 36px;vertical-align: middle;margin-left:4px;">&#8729;</span><strong>&nbsp;IMDB : </strong>${movie.imdbRating}
+                            <span style="font-size: 36px;vertical-align: middle;margin-left:4px;">&#8729;</span><strong>&nbsp;IMDb : </strong>${movie.imdbRating}
                          </h6>
                     <p class="mb-3">${movie.Plot}</p>
                          <h6 class="mb-2 mt-1">| &nbsp; ${movie.Genre} &nbsp; |</h6>
